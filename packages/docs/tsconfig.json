@@ -1,0 +1,4 @@
+{
+  "extends": "@gjconsultoriati/ts-config/react.json",
+  "include": ["src"]
+}

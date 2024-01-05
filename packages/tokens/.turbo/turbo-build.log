@@ -1,0 +1,23 @@
+
+> @gjconsultoriati/tokens@1.0.0 build
+> tsup src/index.ts --format esm,cjs --dts
+
+CLI Building entry: src/index.ts
+CLI Using tsconfig: tsconfig.json
+CLI tsup v8.0.1
+CLI Target: node16
+ESM Build start
+CJS Build start
+CJS dist/index.js 2.51 KB
+CJS ⚡️ Build success in 16ms
+ESM dist/index.mjs 1.36 KB
+ESM ⚡️ Build success in 17ms
+DTS Build start
+DTS ⚡️ Build success in 935ms
+DTS dist/index.d.mts 1.30 KB
+DTS dist/index.d.ts  1.30 KB
+npm notice 
+npm notice New major version of npm available! 9.8.1 -> 10.2.5
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.5>
+npm notice Run `npm install -g npm@10.2.5` to update!
+npm notice 
