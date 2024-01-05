@@ -7,4 +7,4 @@ export * from './component/MultiStep';
 export * from './component/Text';
 export * from './component/TextArea';
 export * from './component/TextInput';
-
+export * from './styles';
