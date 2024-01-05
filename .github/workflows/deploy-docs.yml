@@ -20,9 +20,15 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: LvVr1SnDOXKm8G9HPwDjFOT7
+          TURBO_TEAM: Gabriel Jesus's Team
 
       - name: Deploy storybook
         working-directory: ./packages/docs
         run: touch storybook-static/.nojekyll && npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
+
+
+          LvVr1SnDOXKm8G9HPwDjFOT7
